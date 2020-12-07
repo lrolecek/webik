@@ -1,0 +1,18 @@
+---
+layout: layouts/sablona
+title: Náš team
+menu: team
+---
+
+<h2>Náš team</h2>
+
+{% for osoba in zamestnanci %}
+
+	<h3>{{ osoba.jmeno }} {{ osoba.prijmeni }} ({{ osoba.vek }})</h3>
+
+	<img src="/images/{{ osoba.foto }}" alt="{{ osoba.jmeno }}">
+
+	<p>{{ osoba.pozice }}</p>
+	<p><a href="mailto:{{ osoba.email }}">{{ osoba.email }}</a></p>
+
+{% endfor %}

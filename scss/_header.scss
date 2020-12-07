@@ -1,0 +1,19 @@
+// HEADER
+
+.header {
+	padding: $pad;
+
+	background-color: $bg-color;
+	// background-image
+	background-position: center;
+	background-size: cover;
+
+
+
+	&__logo {
+		margin: 0;
+		font-size: 3em;
+		text-align: center;
+		color: $primary;
+	}
+}

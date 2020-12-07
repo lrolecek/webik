@@ -1,0 +1,45 @@
+---
+layout: layouts/sablona
+title: Produkty
+menu: produkty
+produkty: [
+	{
+		nazev: "Vysavač 101",
+		popis: "Toto je super vysavač, který dobře vysává. Neprohloupí, kdo ho koupí.",
+		cena: 8579
+	},
+	{
+		nazev: "Lednice 202",
+		popis: "Studená lednice, kterou by vám i Elza záviděla.",
+		cena: 12500
+	},
+	{
+		nazev: "Pračka 303",
+		popis: "Lepší než valcha. Pere adekvátně k ceně.",
+		cena: 305
+	}
+]
+---
+
+<h2>Naše produkty</h2>
+
+<ul>
+{% for produkt in produkty %}
+
+	<li>
+		<h4>{{ produkt.nazev }}</h4>
+		<p>{{ produkt.popis }}</p>
+		<p><strong>{{ produkt.cena }} Kč</strong></p>
+	</li>
+
+{% endfor %}
+</ul>
+
+
+<p>Jsou nejlepší!</p>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere cupiditate voluptate ab ullam, provident, aperiam delectus distinctio velit fuga natus error alias aliquid amet rem recusandae ut a? Pariatur, aspernatur?</p>
+
+<p>Nesciunt temporibus voluptate deserunt unde accusantium quisquam ducimus ea ut dolorum doloribus, ipsa, necessitatibus nam a ratione natus expedita eaque, quasi ipsum eius illo error corrupti omnis totam? Architecto, esse.</p>
+
+

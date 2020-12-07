@@ -1,0 +1,26 @@
+[
+	{
+		"jmeno": "Luděk",
+		"prijmeni": "Roleček",
+		"vek": 21,
+		"pozice": "ředitel zeměkoule",
+		"email": "ludek@rolecek.cz",
+		"foto": "foto01.jpg"
+	},
+	{
+		"jmeno": "Jana",
+		"prijmeni": "Nováková",
+		"vek": 32,
+		"pozice": "obchodní ředitelka",
+		"email": "jana@novakova.cz",
+		"foto": "foto02.jpg"
+	},
+	{
+		"jmeno": "Lenka",
+		"prijmeni": "Česnečková",
+		"vek": 45,
+		"pozice": "vedoucí vývoje",
+		"email": "lenka@cesnek.cz",
+		"foto": "foto03.jpg"
+	}
+]

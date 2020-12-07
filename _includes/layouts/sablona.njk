@@ -1,0 +1,17 @@
+{% include 'partials/page-top.njk'  %}
+
+	<main class="main">
+
+		{% if title === 'Kontakt' %}
+
+			<hr>
+			<h3>Jsme na stránce s kontaktem. Jupííííí.</h3>
+			<hr>
+
+		{% endif %}
+
+		{{ content | safe }}
+
+	</main>
+
+{% include 'partials/page-bottom.njk'  %}

@@ -1,0 +1,36 @@
+---
+layout: layouts/sablona
+title: Blog
+menu: blog
+---
+
+<h2>Blog</h2>
+
+{% for clanek in collections.clanky | reverse %}
+
+	<h3>
+		<a href="{{ clanek.url }}">{{ clanek.data.title }}</a>
+	</h3>
+
+	<p>{{ clanek.data.perex }}</p>
+
+	<!--
+	<p>
+		{{ clanek.templateContent | striptags | truncate(300) }}
+	</p>
+	-->
+
+{% endfor %}
+
+
+<hr>
+
+<h2>Podivnosti</h2>
+
+{% for clanek in collections.podivnosti %}
+
+	<h3>
+		<a href="{{ clanek.url }}">{{ clanek.data.title }}</a>
+	</h3>
+
+{% endfor %}

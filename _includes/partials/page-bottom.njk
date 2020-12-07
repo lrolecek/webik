@@ -1,0 +1,12 @@
+<footer class="footer">
+	<p>&copy;2020, Web od A do Z #2</p>
+
+	<p>
+		{% for osoba in zamestnanci %}
+			{{ osoba.jmeno }} {{ osoba.prijmeni }} |
+		{% endfor %}
+	</p>
+</footer>
+
+</body>
+</html>
