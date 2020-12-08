@@ -19,19 +19,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header {
-  background-color: #e5e5e5;
   padding: 30px;
+  background-color: #e5e5e5;
+  background-position: center;
+  background-size: cover;
 }
 
 .header__logo {
   margin: 0;
   font-size: 3em;
   text-align: center;
-  color: dodgerblue;
+  color: #ff6347;
 }
 
 .menu {
-  background-color: dodgerblue;
+  background-color: #ff6347;
 }
 
 .menu__list {
@@ -52,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__item--active .menu__link {
   background-color: white;
-  color: dodgerblue;
+  color: #ff6347;
 }
 
 .menu__link {
@@ -65,7 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .menu__link:hover, .menu__link:focus {
   background-color: white;
-  color: dodgerblue;
+  color: #ff6347;
 }
 
 .kontejner {
